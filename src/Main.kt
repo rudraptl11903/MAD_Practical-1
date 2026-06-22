@@ -1,14 +1,30 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+    var i = 1
+    var j : Int = 2
+    var a : Double  = 14.52
+    var b : String = "R"
+    var c : Char = 't'
+    var d : Boolean = false
+    var e : Float = 3.5f
+    var f : Long  = 346153
+    var g : Short = -4
+    var h : Byte = 127
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
+
+
+    println("a = "+a)
+    println("j = "+j)
+    println("i = "+i)
+    println("b = "+b)
+    println("c = "+c)
+    println("d = "+d)
+    println("e = "+e)
+    println("f = "+f)
+    println("g = "+g)
+    println("h = "+h)
+
+
+
+
+
 }
