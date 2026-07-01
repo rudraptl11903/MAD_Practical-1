@@ -1,5 +1,5 @@
 fun main() {
-   // println("Enter the enroll no :- ")
+   println("Enter the enroll no :- ")
     val enroll = readln()
 
     println("Enter the name :- ")
@@ -22,6 +22,17 @@ fun main() {
 
     println("Enter the Age :-")
     val Age = readln()
+
+    
+    println("student's data")
+    println("enrollment no :- "+enroll)
+    println("Branch :- "+Branch)
+    println("class :-  "+Class)
+    println("Batch :-  "+Batch)
+    println("college_name  :-  "+college_name )
+    println("university_name :-  "+university_name)
+    println("Age :-  "+Age)
+
 
     var s_name : String ?= "23"
     //    s_name = "23"
