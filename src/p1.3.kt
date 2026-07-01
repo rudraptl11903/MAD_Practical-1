@@ -34,8 +34,8 @@ fun main() {
 
 
 
-   // var s_name : String ?= "23"
+   var s_name : String ?= "23"
     //    s_name = "23"
-    //val age:Int = s_name!!.toInt()
-   // println("age = "+age )
+    val age:Int = s_name!!.toInt()
+   println("age = "+age )
 }
